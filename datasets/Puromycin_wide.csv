@@ -1,0 +1,13 @@
+conc,state,rep1,rep2
+0.02,treated,76,47
+0.02,untreated,67,51
+0.06,treated,97,107
+0.06,untreated,84,86
+0.11,treated,123,139
+0.11,untreated,98,115
+0.22,treated,159,152
+0.22,untreated,131,124
+0.56,treated,191,201
+0.56,untreated,144,158
+1.1,treated,207,200
+1.1,untreated,160,NA

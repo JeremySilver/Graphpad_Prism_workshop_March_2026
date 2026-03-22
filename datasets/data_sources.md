@@ -29,7 +29,7 @@ Student (1908) The probable error of the mean. _Biometrika_, **6**, 20
 
 ---
 
-# mRNA expression data in mice: `Fig4F_data.csv`
+# mRNA expression data in mice: `fig4F_data.csv`
 
 ### Description
 
@@ -58,6 +58,8 @@ CCL17 production by glucocorticoids in arthritis. _iScience_, **26**,
 ---
 
 # Mucociliary efficiency: `three_group_comparison_data.csv`
+
+https://cran.r-project.org/doc/manuals/r-patched/packages/stats/refman/stats.html#kruskal.test
 
 ### Description
 
@@ -113,8 +115,12 @@ CCL17 production by glucocorticoids in arthritis. _iScience_, **26**,
 
 ---
 
-# Effects of Serotonin in Mice: `MouseBrain.csv`
+# Effects of Serotonin in Mice: `MouseBrain.csv` 
+
+You may prefer to use `MouseBrain_reformatted_for_Prism.csv`
+
 https://vincentarelbundock.github.io/Rdatasets/doc/Stat2Data/MouseBrain.html 
+
 
 ### Purpose
 
@@ -131,6 +137,8 @@ A data frame with 48 observations on the following 3 variables.
 * `Contacts`: Number of social contacts the mouse had during the experiment
 * `Sex`: F=female or M=male
 * `Genotype`: Minus, Mixed, or Plus (see description below)
+
+This was also reformatted for easy importing into Prism in the file `MouseBrain_reformatted_for_Prism.csv`
 
 ### Details
 
@@ -173,3 +181,30 @@ Lupancu, et al. 2023. Epigenetic and transcriptional regulation of
 CCL17 production by glucocorticoids in arthritis. _iScience_, **26**,
 10. DOI: 10.1016/j.isci.2023.108079
 
+---
+
+# Puromycin (Reaction Velocity of an Enzymatic Reaction)
+
+https://svn.r-project.org/R/trunk/src/library/datasets/data/Puromycin.R
+
+### Description
+
+The Puromycin data contains reaction velocity versus substrate concentration in an enzymatic reaction involving untreated cells or cells treated with Puromycin.
+
+### Format
+
+This dataset has 23 rows and 3 columns:
+
+* `conc`: a numeric vector of substrate concentrations (ppm)
+* `rate`: a numeric vector of instantaneous reaction rates (counts/min/min)
+* `state`: a factor with levels treated untreated
+
+### Details
+
+Data on the velocity of an enzymatic reaction were obtained by Treloar (1974). The number of counts per minute of radioactive product from the reaction was measured as a function of substrate concentration in parts per million (ppm) and from these counts the initial rate (or velocity) of the reaction was calculated (counts/min/min). The experiment was conducted once with the enzyme treated with Puromycin, and once with the enzyme untreated.
+
+### Source
+
+Bates, D.M. and Watts, D.G. (1988) _Nonlinear Regression Analysis and Its Applications_, Wiley, Appendix A1.3.
+
+Treloar, M. A. (1974) _Effects of Puromycin on Galactosyltransferase in Golgi Membranes_, M.Sc. Thesis, U. of Toronto.
