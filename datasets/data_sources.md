@@ -208,3 +208,107 @@ Data on the velocity of an enzymatic reaction were obtained by Treloar (1974). T
 Bates, D.M. and Watts, D.G. (1988) _Nonlinear Regression Analysis and Its Applications_, Wiley, Appendix A1.3.
 
 Treloar, M. A. (1974) _Effects of Puromycin on Galactosyltransferase in Golgi Membranes_, M.Sc. Thesis, U. of Toronto.
+
+---
+
+# Measurements of Penguins near Palmer Station, Antarctica
+
+The file `penguins.csv` has the original data, and the file
+`penguins_adelie_wide_massVsSexVsFlipperLength.csv` has a _subset_ of
+this: flipper length data broken down into different body masses and
+by sex, for Adelie penguins only.
+
+### Description
+
+Data on adult penguins covering three species found on three islands in the Palmer Archipelago, Antarctica, including their size (flipper length, body mass, bill dimensions), and sex.
+
+The columns of penguins are a subset of the more extensive penguins_raw data frame, which includes nesting observations and blood isotope data. There are differences in the column names and data types. See the 'Format' section for details.
+
+### Format
+
+penguins is a data frame with 344 rows and 8 variables:
+
+* `species`: factor, with levels Adelie, Chinstrap, and Gentoo
+* `island`: factor, with levels Biscoe, Dream, and Torgersen)
+* `bill_len`:  numeric, bill length (millimeters)
+* `bill_dep`: numeric, bill depth (millimeters)
+* `flipper_len`: integer, flipper length (millimeters)
+* `body_mass`: integer, body mass (grams)
+* `sex`: factor, with levels female and male
+* `year`: integer, study year: 2007, 2008, or 2009
+
+### Details
+
+Gorman et al. (2014) used the data to study sex dimorphism separately for the three species.
+
+### Note
+
+These data sets are also available in the palmerpenguins package. See the package website for further details and resources.
+
+The penguins data has some shorter variable names than the palmerpenguins version, for compact code and data display.
+
+### Source
+
+Adélie penguins:
+Palmer Station Antarctica LTER and K. Gorman (2020). Structural size measurements and isotopic signatures of foraging among adult male and female Adélie penguins (Pygoscelis adeliae) nesting along the Palmer Archipelago near Palmer Station, 2007-2009 ver 5. _Environmental Data Initiative_, doi:10.6073/pasta/98b16d7d563f265cb52372c8ca99e60f.
+
+Gentoo penguins:
+Palmer Station Antarctica LTER and K. Gorman (2020). doi:10.6073/pasta/7fca67fb28d56ee2ffa3d9370ebda689.
+
+Chinstrap penguins:
+Palmer Station Antarctica LTER and K. Gorman (2020). doi:10.6073/pasta/c14dfcfada8ea13a17536e73eb6fbe9e.
+
+The title naming convention for the source for the Gentoo and Chinstrap data is that same as for Adélie penguins.
+
+### References
+
+Gorman, K. B., Williams, T. D. and Fraser, W. R. (2014) Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis). _PLoS ONE_ **9**, 3, e90081; doi:10.1371/journal.pone.0090081.
+
+---
+
+# Mouse Litters: litters.csv
+
+https://vincentarelbundock.github.io/Rdatasets/doc/DAAG/litters.html
+
+### Description
+
+Data on the body and brain weights of 20 mice, together with the size of the litter. Two mice were taken from each litter size.
+
+### Format
+
+This dataset contains the following columns:
+* `lsize`: litter size
+* `bodywt`: body weight at 32 days post-conception[g]
+* `brainwt`: brain weight at 32 days post-conception [g]
+
+### Source
+
+Wainright P, Pelkman C and Wahlsten D 1989. The quantitative relationship between nutritional effects on preweaning growth and behavioral development in mice. _Developmental Psychobiology_; **22**: 183-193.
+
+---
+
+# Metabolic Rate of Caterpillars: MetabolicRate.csv
+https://vincentarelbundock.github.io/Rdatasets/doc/Stat2Data/MetabolicRate.html
+
+### Description
+
+Body size and metabolic rate of Manduca Sexta caterpillars
+
+### Format
+
+305 observations on the following 6 variables:
+
+* `BodySize`: Size of the caterpillar (in grams)
+* `LogBodySize`: Log (base 10) of BodySize
+* `Instar`: Number from 1 (smallest) to 5 (largest) indicating stage of the caterpillar's life
+* `CO2ppm`: Carbon dioxide concentration (in ppm)
+* `Mrate`: Metabolic rate
+* `LogMrate`: Log (base 10) of metabolic rate
+
+### Details
+
+Marisa Stearns collected and analyzed body size and metabolic rates for Manduca Sexta caterpillars.
+
+### Source
+
+Dataset provided by Professor Itagaki and his research students.
